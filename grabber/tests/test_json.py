@@ -3,7 +3,7 @@ import unittest
 
 from grabber import JSONGrabber
 
-SOME_JSON_FILE = 'static_files/reddit.json'
+SOME_JSON_FILE = 'grabber/static_files/reddit.json'
 
 
 class JSONGrabberTest(unittest.TestCase):

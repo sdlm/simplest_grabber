@@ -7,8 +7,8 @@ from grabber.rss import RSSGrabber, RSSEntriesGrabber
 REDDIT_RSS_ENDPOINT = 'https://www.reddit.com/r/news/.rss'
 HABRAHABR_RSS_ENDPOINT = 'https://habrahabr.ru/rss/hubs/all/'
 
-REDDIT_EXAMPLE_PATH = 'static_files/reddit.json'
-HABRAHABR_EXAMPLE_PATH = 'static_files/habrahabr.json'
+REDDIT_EXAMPLE_PATH = 'grabber/static_files/reddit.json'
+HABRAHABR_EXAMPLE_PATH = 'grabber/static_files/habrahabr.json'
 
 
 class RSSGrabberTest(unittest.TestCase):
