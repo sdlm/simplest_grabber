@@ -1,7 +1,7 @@
 import csv
 import json
 
-from grabber.abstract_classes import Grabber
+from .abstract_classes import Grabber
 
 
 # noinspection PyAbstractClass

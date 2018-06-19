@@ -1,7 +1,7 @@
 import json
 import unittest
 
-from grabber import JSONGrabber
+from ..file import JSONGrabber
 
 SOME_JSON_FILE = 'grabber/static_files/reddit.json'
 

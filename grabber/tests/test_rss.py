@@ -2,7 +2,8 @@ import json
 import unittest
 from unittest.mock import patch
 
-from grabber.rss import RSSGrabber, RSSEntriesGrabber
+from ..rss import RSSGrabber, RSSEntriesGrabber
+
 
 REDDIT_RSS_ENDPOINT = 'https://www.reddit.com/r/news/.rss'
 HABRAHABR_RSS_ENDPOINT = 'https://habrahabr.ru/rss/hubs/all/'
